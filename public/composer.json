@@ -1,0 +1,12 @@
+{
+    "name": "philippe/public",
+    "authors": [
+        {
+            "name": "philippedu69",
+            "email": "philippeperrin1968@free.fr"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.0"
+    }
+}

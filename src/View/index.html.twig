@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    <title>Twig</title>
+
+{% endblock %}
+
+{% block content %}
+<h1 style = 'text-align: center;'> Quête Twig</h1>
+{% endblock %}
+
+{% block section %}
+    <div class="row">
+        {% for product in products %}
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title" style='text-align: center;'>{{ product }}</h5>
+                </div>
+            </div>
+        </div>
+
+        {% endfor %}
+    </div>
+{% endblock %}
